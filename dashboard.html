@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MiracleChat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h1 class="logo">MiracleChat</h1>
+            </div>
+            <div class="manu">
+                <ul>
+                    <li><a href="">community</a>  </li>
+                    <li><a href="">chat</a>  </li>
+                    <li><a href="">status</a>  </li>
+                    <li><a href="">calls</a>  </li>
+                </ul>
+            </div>
+            <div class="search">
+                <input  class="src"type="search" name="" placeholder="  type to search">
+                <a href=""><button class="btn">search</button></a>
+            </div>
+            
+        </div>
+        <div class="content">
+            <h1 class="h1">Miracle Chat</h1>
+            <p class="p1">secure instant messaging platform</p>
+            <a href=""><button class="cn">join us</button></a>
+            <div class="form">
+                <h2 id="title">sign up here</h2>
+                
+                <div class="input-field" id="first">
+                    <input type="text"name="" placeholder="enter first name">
+                </div>
+                <div class="input-field" id="last">
+                    <input type="text"name="" placeholder="enter last name">
+                </div>
+                <div class="input-field" id="mobile">
+                    <input type="mobile"name="" placeholder="enter mobile number">
+                </div>
+                <div class="input-field" id="email">
+                    
+                    <input type="email"name="" placeholder="enter your email">
+                </div>
+                <div class="input-field" id="password">
+                    <input type="password"name="" placeholder="enter password">
+                </div>
+                <div class="btn-field">
+                    <button  id="btn1"><a href="">sign up</a></button>
+                    <button class="disable"id="btn2"><a href="">sign in</a></button>
+                </div>
+              
+               <p class="liw">sign in with</p>
+               <div class="icons">
+                <a href=""><i class='bx bx-fecebook'></i></a>
+                <a href=""><i class='bx bx-message-rounded'></i></a>
+                <a href=""><i class='bx bx-message-rounded'></i></a>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let title =document.getElementById('title')
+        let first =document.getElementById('first')
+        let last =document.getElementById('last')
+        let mobile =document.getElementById('mobile')
+        let btn1 =document.getElementById('btn1')
+        let btn2 =document.getElementById('btn2')
+        btn2.onclick =function(){
+            title.innerHTML ="sign in here";
+            first.style.maxHeight="0";
+            last.style.maxHeight="0";
+            mobile.style.maxHeight="0";
+            btn1.classList.add("disable")
+            btn2.classList.remove("disable")
+            
+        }
+        btn1.onclick =function(){
+            title.innerHTML ="sign up here";
+            first.style.maxHeight="60px";
+            last.style.maxHeight="60px";
+            mobile.style.maxHeight="60px";
+            btn1.classList.remove("disable")
+            btn2.classList.add("disable")
+            
+        }
+    </script>
+</body>
+</html>

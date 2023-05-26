@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    
+    
+    <title>Document</title>
+	<script> 
+		var mwanzo = true; 
+		function startChart(){ 
+			const Chats = document.getElementById("chats");
+			//const startstop = document.getElementById("startstop");
+			if (mwanzo == true) {
+				Chats.removeAttribute("hidden");
+				//mwanzo = false;
+				//startstop.innerHTML = "Stop";
+			}
+			//else {
+				//Chats.setAttribute("hidden", "hidden");
+				//mwanzo = true;
+				//startstop.innerHTML = "Start";
+			//} 
+		}
+	</script>
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <div class="header">
+                <div class="userimg">
+                    <img src="images/girl.jpg" alt="user" class="userpro">
+                </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="scan-circle-outline" role="img" class="md hydrated"></ion-icon></li>
+                    <li><ion-icon name="chatbox-ellipses-outline" role="img" class="md hydrated"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical-outline" role="img" class="md hydrated"></ion-icon></li>
+                    
+                    
+                </ul>
+            </div>
+            <!--search-->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="search or start new chat">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+            </div>
+            <!--chat list-->
+            <div class="chat_list">
+                <div class="block active">
+                    <div class="imagbx">
+                        <img src="images/girl.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>catheline</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>2</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block unread">
+                    <div class="imagbx">
+                        <img src="images/p7.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>gasper photo</h3>
+                        <p class="time">8:00</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow friend you photo is redy</p>
+                        <b>6</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/eliza.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>elizabeth saimon</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my love</p>
+                        <b>17</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/p12.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>jenipher makas</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>2</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/p11.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>john smith</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/avatar1.png" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>john coln</h3>
+                        <p class="time">10:00</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>7</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/p7.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>junior vascor</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>you to hot in programming</p>
+                        <b>7</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/avatar_girl2.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>emmy sauly</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>1</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/avatar_g2.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>angelin smith</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hi? unique where you</p>
+                        <b>5</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/avatar.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>alnastan jemis</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hi?</p>
+                        <b>2</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/p5.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>Greance p</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>2</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/girl_hat.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>stera peter</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                      
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <div class="imagbx">
+                        <img src="images/p8.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>elias musa</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block ">
+                    <div class="imagbx">
+                        <img src="images/p10.jpg" alt="user" class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>johnson ket</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow my freind?</p>
+                        <b>5</b>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="block unread ">
+                    <div class="imagbx">
+                        <img src="images/avatar_girl2.jpg" alt="user " class="userpro">
+                    </div>
+                    <div class="detail">
+                    <div class="listhead">
+                        <h3>catheline poker</h3>
+                        <p class="time">10:45</p>
+                    </div>
+                    <div class="masage">
+                        <p>hellow can i works with you?</p>
+                        <b>15</b>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <!-- chat massage -->
+            <div class="header">
+                <div class="imgtext">
+                    <div class="userimg">
+                        <img src="images/girl.jpg" alt="" class="userpro">
+                    </div>
+                    <h3>catheline<br><span>online</span></h3>
+                </div>
+                <ul class="nav_icons">
+                      <li><ion-icon name="videocam" role="img" class="md hydrated"></ion-icon></li>
+                      <li><ion-icon name="call" role="img" class="md hydrated"></ion-icon></li>
+                      <li><ion-icon name="search" role="img" class="md hydrated"></ion-icon></li>
+                      <li><ion-icon name="ellipsis-vertical-outline" role="img" class="md hydrated"></ion-icon></li>
+                      
+                      
+                      
+                  </ul>
+            </div>
+        <div class="chatbox" >
+		<div id = "chats" >
+            <div class="massagebox my_mass">
+                <p>hii my friend <br><span> 2:4</span></p>
+            </div>
+            <div class="massagebox frnd_mass">
+                <p>hellow  kkkkkkkkkkkkkkkkkkhjxlkckkjkbjkbljkclkgjlk<br><span> 2:47</span></p>
+            </div>
+            <div class="massagebox my_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox my_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox my_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox frnd_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox my_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox frnd_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox my_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            <div class="massagebox frnd_mass">
+                <p>hmuujjijikfndjnmmcx mn mxkvnmndmknfvmkjnknjknjdfnmdngnmbsdfahfbajbjbjab<br><span> 4:40</span></p>
+            </div>
+            </div>
+            
+			</div>
+            <!-- chatbox input -->
+            <div class="chatbox_input">
+                <ion-icon name="happy" role="img" class="md hydrated md_1"></ion-icon>
+                <ion-icon name="attach" role="img" class="md hydrated"></ion-icon>
+                <textarea class="text" id="" cols="30" ></textarea>
+                <ion-icon class="send md hydrated" name="send" role="img"></ion-icon>
+                <ion-icon name="mic" role="img" class="md hydrated"></ion-icon>
+                
+            </div>
+    </div>
+    <!-- massage icon -->
+    <div class="chat_icon">
+        <ion-icon name="chatbubble-ellipses-outline" id="startstop" onclick="startChart"></ion-icon>
+    
+        
+    </div>
+    </div>
+    <script src="">
+	
+		  
+        //chat massage in
+        const chat_icon =document.querySelector('.chat_icon')
+        const chatboxright=document.querySelector('.rightside')
+
+        chat_icon.addEventListener('click', function(send){
+            chatboxright.classList.toggle('show')
+        })
+		
+		
+    </script>
+	
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
